@@ -53,6 +53,8 @@
     border-color: black;
     border: 2vh;
     border-radius:10px; 
+     
+
 }
 
 button:hover {
@@ -62,6 +64,9 @@ button:hover {
 
 h2 {
 	font-size: 18px;
+}
+.youtube {
+  overflow: scroll;
 }
 
 #result {
@@ -98,6 +103,7 @@ h2 {
     z-index: 1;
     background-image: url("../images/weird-science.png");
     border-radius: 15px;
+    overflow: scroll;
   }
   
   a h1 {
@@ -295,7 +301,46 @@ h2 {
   @media (min-width: 991px) {
   
   }
-  
+
+  /* section 3*/
+
+  button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+    .container2 {
+      height: 550px;
+    margin-bottom: 50px;
+    z-index: 1;
+    background-image: url("../images/search2.jpg");
+    border-radius: 15px;
+    overflow: scroll;
+    }
+    
+    .jumbotron>hr {
+    border-top-color: #4d2727;
+    }
+    .button-movie {
+      margin : 5px;
+    }
+    .my-4 {
+      border-top-color: red;
+    }
+    p {
+      margin-top: 10px;
+      font-family: 'Roboto', sans-serif;
+    }
+ #movie-view{
+   width: 100%;
+   background-color: none;
+   height: 300px;
+ }
+ #movie-input {
+  margin-bottom: 1em;
+  text-align: center;
+ }
 
 footer {
     padding: 15px;
